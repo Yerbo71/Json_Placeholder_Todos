@@ -1,0 +1,73 @@
+.MainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .MainBox{
+        border: 1px  solid rgb(42, 139, 218);
+        padding: 15px;
+        border-radius: 15px;
+        min-width: 400px;
+        .formCon{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: start;
+            justify-content: center;
+            .labelTitle{
+                width: 100%;
+            }
+            .labelUser{
+                width: 100%;
+            }
+            .textInput{
+                width: 100%;
+                padding: 8px;
+                border: 1px solid rgb(42, 139, 218);
+                border-radius: 5px;
+                margin-bottom: 10px;
+            }
+            .numberInput{
+                width: 100%;
+                padding: 8px;
+                border: 1px solid rgb(42, 139, 218);
+                border-radius: 5px;
+                margin-bottom: 10px;
+            }
+        }
+        .formCon2{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: start;
+            justify-content: start;
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+
+        .buttonBox{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 25px;
+
+            button{
+                padding: 10px 18px;
+                border: 1px solid green;
+                border-radius: 5px;
+                background-color: white;
+                cursor: pointer;
+            }
+            .back{
+                padding: 10px 18px;
+                border: 1px solid red;
+                border-radius: 5px;
+                background-color: white;
+                cursor: pointer;
+
+            }
+        }
+    }
+}

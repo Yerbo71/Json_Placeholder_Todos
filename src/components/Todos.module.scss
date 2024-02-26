@@ -1,0 +1,89 @@
+.MainFrame {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.MainHeader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.SearchInput{
+    width: 50%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid rgb(42, 139, 218);
+}
+.FilterBox{
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid green;
+    margin-left: 30px;
+}
+.TodosContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.TodosCard{
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 150px;
+    border: 1px solid gray;
+    padding: 25px;
+    border-radius: 15px;
+}
+.Status{
+    color: gray;
+}
+.Title{
+    color: gray;
+}
+.TitleText{
+    color: black;
+}
+.FilterButton{
+    background-color: white;
+    border: 1px solid rgb(42, 139, 218) ;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.NewTodoBox{
+    background-color: white;
+    padding: 5px 10px;
+    border: 1px solid green;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    
+
+}
+.buttonBox{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:start;
+    gap: 10px;
+    margin-top: 10px;
+}
+.editbut{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(42, 139, 218);
+    background-color: white;
+    cursor: pointer;
+}
+.deletebut{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid red;
+    background-color: white;
+    cursor: pointer;
+}
